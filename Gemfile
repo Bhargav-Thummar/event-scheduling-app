@@ -75,3 +75,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "devise"
+gem "friendly_id"
+gem "cssbundling-rails"
+gem "name_of_person"
+gem "sidekiq"

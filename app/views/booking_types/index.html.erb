@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Booking types</h1>
+
+<div id="booking_types">
+  <% @booking_types.each do |booking_type| %>
+    <%= render booking_type %>
+    <p>
+      <%= link_to "Show this booking type", booking_type %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New booking type", new_booking_type_path %>
